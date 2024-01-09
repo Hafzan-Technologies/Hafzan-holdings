@@ -35,10 +35,11 @@
       <!-- <p class="meta">Open-source. <a href="https://github.com/ctlos/ctlosiso" target="_blank">GitHub v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p> -->
     </div>
   </div>
-</section>
-{{ end }}
-{{ define "pre-footer" }}
-<!-- TradingView Widget BEGIN -->
+  </section>
+  <!-- TradingView Widget BEGIN -->
+  <section class="section container-fluid mt-n3 pb-3">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 text-center">
 <div class="tradingview-widget-container" style="height:100%;width:100%">
   <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
   <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
@@ -56,5 +57,7 @@
 }
   </script>
 </div>
-<!-- TradingView Widget END -->
+</div>
+</div>
+</section>
 {{ end }}
