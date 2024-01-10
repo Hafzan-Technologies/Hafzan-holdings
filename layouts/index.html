@@ -36,6 +36,30 @@
     </div>
   </div>
 </section>
+
+<section class="section container-fluid mt-n3 pb-3">
+  <div class="row justify-content-center">
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+  {
+  "width": 1000,
+  "height": 490,
+  "defaultColumn": "overview",
+  "screener_type": "crypto_mkt",
+  "displayCurrency": "USD",
+  "colorTheme": "light",
+  "locale": "in"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+ </div>
+</section>
+
+
 {{ end }}
 
 {{ define "prefooter" }}
