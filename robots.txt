@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /keybase.txt
 
-Sitemap: https://hafzan-technologies.github.io/hfzr/sitemap.xml
+Sitemap: https://hafzan-technologies.github.io/Hafzan-holdings/sitemap.xml
